@@ -6,7 +6,7 @@ concrete FoodLug of Food = {
       lin
         Is item quality = {s = item.s ++ " " ++ quality.s} ;
         Are kind quality = {s = kind.s ++ "bi" ++ quality.s} ;
-        PKind kind kind = {s = kind.s ++ "ne" ++ kind.s} ;
+        And kind1 kind2 = {s = kind1.s ++ "ne" ++ kind2.s} ;
         This kind = {s = "--no" ++ kind.s} ;
         That kind = {s = "--yo" ++ kind.s} ;
         PKind kind kind = {s = kind.s ++ "ne" ++ kind.s} ;
