@@ -6,7 +6,7 @@ concrete FoodEng of Food = {
       lin
         Is item quality = {s = item.s ++ "is" ++ quality.s} ;
         Are kind quality = {s = kind.s ++ "are" ++ quality.s} ;
-        And kind kind = {s = kind.s ++ "and" ++ kind.s} ;
+        And kind1 kind2 = {s = kind1.s ++ "and" ++ kind2.s} ;
         This kind = {s = "this" ++ kind.s} ;
         That kind = {s = "that" ++ kind.s} ;
         PKind kind kind = {s = kind.s ++ "are" ++ kind.s} ;
