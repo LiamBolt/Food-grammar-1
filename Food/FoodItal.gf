@@ -6,7 +6,7 @@
       lin
         Is item quality = {s = item.s ++ "è" ++ quality.s} ;
         Are kind quality = {s = kind.s ++ "sono" ++ quality.s};
-        And kind kind = {s = kind.s ++ "E" ++ kind.s} ;
+        And kind1 kind2 = {s = kind1.s ++ "E" ++ kind2.s} ;
         This kind = {s = "questo" ++ kind.s} ;
         That kind = {s = "quel" ++ kind.s} ;
         PKind kind kind = {s = kind.s ++ "E" ++ kind.s} ;
